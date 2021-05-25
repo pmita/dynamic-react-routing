@@ -1,0 +1,9 @@
+.about-container {
+  min-height: 900vh;
+  min-width: 100vw;
+  padding: 0 5rem;
+  @include flex(column, flex-start, center);
+  h1 {
+    padding: 10rem 0;
+  }
+}

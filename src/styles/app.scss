@@ -1,19 +1,29 @@
 $main-color: red;
 $sec-color: green;
+$white: #fff;
 
-h1 {
-  color: pink;
-}
+$h1: 2.8rem;
+$h2: 2.6rem;
+$h3: 2.2rem;
+$h4: 1.85rem;
+$h5: 1.65;
+$h6: 1.4;
 
 .App {
   width: 100vw;
   min-height: 100vh;
-  display: grid;
-  place-items: center;
-  h1 {
-    min-height: 10vh;
-  }
+}
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
 }
 
 @import "global";
+@import "nav";
+@import "about";
+@import "shop";
 @import "products";
+@import "product";

@@ -1,0 +1,20 @@
+nav {
+  min-height: 10vh;
+  width: 100%;
+  background: $main-color;
+  @include flex(row, space-around, center);
+  color: $white;
+}
+
+.logo {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links {
+  flex: 1;
+  @include flex(row, space-around, center);
+  li {
+    list-style-type: none;
+  }
+}
