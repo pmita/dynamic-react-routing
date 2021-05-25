@@ -12,7 +12,7 @@ function App() {
   console.log(products);
   return (
     <div className="App">
-      <h1>Test</h1>
+      <h1>Our products</h1>
       <Cards 
         products={products}
       />
